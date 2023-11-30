@@ -1,0 +1,8 @@
+PROMOTED NEWS
+
+{SiteUrl}/_api/search/query?querytext='IsDocument:True AND FileExtension:aspx AND PromotedState:2'
+https://tenantName.sharepoint/com/sites/Intranet/_api/search/query?querytext='IsDocument:True AND FileExtension:aspx AND PromotedState:2'
+
+ALL SITES
+
+https://tenantName.sharepoint/com/search/_api/search/query?querytext='IsDocument:True AND FileExtension:aspx AND PromotedState:2'

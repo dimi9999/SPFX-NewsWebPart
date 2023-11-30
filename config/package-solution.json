@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "latest-news-carousel-client-side-solution",
+    "id": "005bc4be-6100-4336-993f-266e9a9bb55c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "LatestNewsCarousel description"
+      },
+      "longDescription": {
+        "default": "LatestNewsCarousel description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "latest-news-carousel Feature",
+        "description": "The feature that activates elements of the latest-news-carousel solution.",
+        "id": "bc9e08fa-b809-4f6d-93ad-f83747c93fe5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/latest-news-carousel.sppkg"
+  }
+}

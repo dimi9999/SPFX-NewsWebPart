@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "latest-news-carousel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/latestNewsCarousel/LatestNewsCarouselWebPart.js",
+          "manifest": "./src/webparts/latestNewsCarousel/LatestNewsCarouselWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LatestNewsCarouselWebPartStrings": "lib/webparts/latestNewsCarousel/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

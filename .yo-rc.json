@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "latest-news-carousel",
+    "libraryId": "005bc4be-6100-4336-993f-266e9a9bb55c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "LatestNewsCarousel",
+    "solutionShortDescription": "LatestNewsCarousel description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
